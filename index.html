@@ -13,7 +13,7 @@
   <style>
   body { margin:0; padding:0; }
   #map { position: absolute; top:0; bottom:0; right:0; left:0; }
-  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: white; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }
+  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: rgb(223, 35, 35); border: 4px solid rgb(255, 255, 255); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }
   </style>
 </head>
 <body>
@@ -46,6 +46,8 @@
   L.marker([35.77614, -78.6450]).addTo(map) // EDIT marker coordinates
   .bindPopup("Box Car Bar + Arcade"); // EDIT pop-up text message
   L.marker([35.7759, -78.6447]).addTo(map) // EDIT marker coordinates
+  .bindPopup("The Pit"); // EDIT pop-up text message
+  L.marker([35.7832, -78.6355]).addTo(map) // EDIT marker coordinates
   .bindPopup("The Pit"); // EDIT pop-up text message
   </script>
 </body>
